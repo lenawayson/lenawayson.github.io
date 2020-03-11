@@ -1,0 +1,18 @@
+{
+  "name": "lenawayson",
+  "version": "1.0.0",
+  "description": "personal webpage built with tailwind css",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "build": "postcss styles.css -o index.css",
+    "dev": "npx http-server -o -c-1"
+  },
+  "author": "Lena Wayson",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^9.7.4",
+    "postcss-cli": "^7.1.0",
+    "tailwindcss": "^1.2.0"
+  }
+}

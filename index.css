@@ -13950,6 +13950,12 @@ video {
   font-family: 'Inconsolata', monospace;
 }
 
+.social-icon {
+  height: 28px;
+  width: 28px;
+  margin: 4px;
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;

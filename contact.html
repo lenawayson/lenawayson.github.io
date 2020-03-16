@@ -2,7 +2,7 @@
 <head>
     <title>lena wayson</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -28,13 +28,13 @@
             <div id ="sidebar" class="md:flex md:items-end w-screen md:w-24 p-4 md:p-8 text-center">
                 <ul class="list-none">
                     <li class="inline">
-                        <img src="github.svg" class="inline social-icon" alt="Github"/>
+                        <img src="assets/images/github.svg" class="inline social-icon" alt="Github"/>
                     </li>
                     <li class="inline">
-                        <img src="linkedin.svg" class="inline social-icon" alt="Linkedin"/>
+                        <img src="assets/images/linkedin.svg" class="inline social-icon" alt="Linkedin"/>
                     </li>
                     <li class="inline">
-                        <img src="twitter.svg" class="inline social-icon" alt="Twitter"/>
+                        <img src="assets/images/twitter.svg" class="inline social-icon" alt="Twitter"/>
                     </li>
                 </ul>
             </div>
@@ -42,9 +42,28 @@
         <!-- content -->
             <div id ="content" class="flex-grow px-8 py-4 lg:p-16 xl:p-20 flex flex-col md:flex-row justify-between">
                 <div class="inconsolata text-xl md:text-4xl md:w-40 pb-2">
-                    get in touch
+                    get in touch.
                 </div>
-                <div class="flex-1 p-6 lg:p-20 xl:px-24">contact form.</div>
+                <div class="flex-1 p-6 lg:px-12 xl:px-24 overflow-auto">    
+                    <p class="py-4 open-sans text-4xl font-bold block text-right">
+                        <img src="assets/images/mail_outline-24px.svg" class="w-10 h-10 mx-2 inline"/> lenawayson@gmail.com
+                    </p>              
+                    <form
+                        action="https://formspree.io/xayboavj"
+                        method="POST"
+                        class="flex flex-col p-8"
+                    >
+                    <label class="py-4 open-sans text-4xl font-bold block">
+                        your email:
+                        </label>
+                        <input type="text" name="_replyto" class="bg-gray-100 border border-gray-300">
+                    <label class="py-4 open-sans text-4xl font-bold block">
+                        message:
+                        </label>
+                        <textarea name="message" class="bg-gray-100 border border-gray-300"></textarea>
+                    <button type="submit" class="mx-auto my-10 w-24 bg-black hover:shadow-xl text-white font-bold py-2 px-4 rounded">Send</button>
+                    </form>
+                </div>
             </div>
         <!-- end content -->
         </div>

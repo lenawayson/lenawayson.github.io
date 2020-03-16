@@ -8,6 +8,10 @@
     font-family: 'Inconsolata', monospace;
 }
 
+.open-sans {
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
 .social-icon {
     height: 28px;
     width: 28px;

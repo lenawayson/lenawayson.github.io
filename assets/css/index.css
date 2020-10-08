@@ -21234,6 +21234,10 @@ video {
           animation: bounce 1s infinite;
 }
 
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .inconsolata {
   font-family: 'Inconsolata', monospace;
 }
@@ -21246,6 +21250,30 @@ video {
   height: 28px;
   width: 28px;
   margin: 10px;
+}
+
+.w-36rem {
+  width:36rem;
+}
+
+#section0 {
+  background: rgb(72,215,162);
+  background: linear-gradient(0deg, rgba(72,215,162,1) 0%, rgba(255,246,133,1) 100%);
+}
+
+#section1 {
+  background: rgb(14,113,200);
+  background: linear-gradient(0deg, rgb(14,113,200) 0%, rgba(72,215,162,1) 100%);
+}
+
+#section2 {
+  background: rgb(165,81,246);
+  background: linear-gradient(0deg, rgba(165,81,246,1) 0%, rgba(14,113,200,1) 100%);
+}
+
+#section3 {
+  background: rgb(255,246,133);
+  background: linear-gradient(0deg, rgba(255,246,133,1) 0%, rgba(165,81,246,1) 100%);
 }
 
 @media (min-width: 640px) {

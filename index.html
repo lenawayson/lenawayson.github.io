@@ -4,26 +4,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="assets/css/index.css">
     <link rel="stylesheet" type="text/css" href="assets/css/fullpage.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Check FullPage.js documentation for use -->
     <div id="fullpage">
         <div class="section" id="section0">
             <div class="intro flex flex-row justify-center">
-                <div class="w-2/3 md:w-2/3 lg:w-1/2 p-8 md:p-32 border-8 border-gray-100 border-solid text-center">
-                    <h1 class="montserrat uppercase font-bold text-xl md:text-4xl">Lena Wayson</h1>
-                    <div class="md:hidden"><br /><br /></div>
-                    <p class="inconsolata lowercase md:text-xl">Software Developer in <b>Denver CO</b></p>
+                <div class="w-2/3 md:w-2/3 lg:w-1/2 p-8 bg-gray-100 border-8 rounded-xl border-gray-100 border-solid">
+                    <div class="flex justify-center md:justify-end pb-6 "><div class="text-right h-16 w-16 bg-white"></div></div>
+                    <h1 class="text-center md:text-left poppins uppercase font-bold text-2xl md:text-6xl text-gray-800">Lena Wayson</h1>     
+                    <p class="text-center md:text-left inconsolata lowercase md:text-xl text-gray-800">Software Developer <br class="md:hidden"/> in <b>Denver CO</b></p>
+                    <p class="text-center md:text-left inconsolata lowercase md:text-l text-gray-800"><i>(she/her)</i></p>
+                    <div id="buttons" class="pt-8">
+                        <button class="bg-gray-800 px-12 hover:bg-gray-900 border-gray-800 border-2 text-white py-2 rounded-sm montserrat uppercase">
+                            Button
+                          </button>
+                          
+                          <!-- Extracting component classes: -->
+                          <button class="border-gray-800 border-2 mt-2 md:ml-2 px-12 hover:bg-gray-200 text-gray-800 py-2 rounded-sm montserrat uppercase">
+                            Button
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="section" id="section1">
-            <div class="intro flex flex-row justify-center">
-                <div class="w-1/2 md:w-2/3 p-8 md:p-32 border-8 border-gray-100 border-solid">
-                    <h1>Navigation dots</h1>
-                    <p>An easy and beautiful way to navigate throw the sections</p>
+            <div class="h-full intro flex flex-col p-8 items-center justify-start">
+                <div class="pt-20 p-8 md:p-20 text-center">
+                    <h1 class="poppins uppercase font-bold text-xl md:text-4xl text-gray-100">about me...</h1>
+                </div>
+                <div class="w-1/2 md:w-2/3 bg-gray-100 flex flex-col md:flex-row">
+                    <div class="p-4 ">
+                        <p class="inconsolata md:text-2xl"><b>Hello there! </b><br />
+                            I'm Lena. </p>
+                    </div>
+                    <div class="p-4 flex-1">
+                        
+                        <p>I am a technical Jack of All Trades. A software developer. A consultant. A constant learner. </p>
+                    </div>
+                </div>
+                <div class="border-8 text-center">
+                    <p class="inconsolata lowercase md:text-xl">Software Developer in <b>Denver CO</b></p>
                 </div>
             </div>
         </div>

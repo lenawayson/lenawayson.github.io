@@ -16,6 +16,14 @@
     font-family: 'Open Sans', Arial, sans-serif;
 }
 
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.rounded-xl {
+    border-radius: 1.2rem;
+}
+
 .social-icon {
     height: 28px;
     width: 28px;

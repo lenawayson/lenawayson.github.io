@@ -53,3 +53,8 @@
     background: rgb(255,246,133);
     background: linear-gradient(0deg, rgba(255,246,133,1) 0%, rgba(165,81,246,1) 100%); 
 }
+
+#section4 {
+    background: rgb(255,77,76);
+    background: linear-gradient(0deg, rgba(255,77,76,1) 0%, rgba(255,246,133,1) 95%);
+}

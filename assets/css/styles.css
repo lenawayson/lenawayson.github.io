@@ -58,3 +58,7 @@
     background: rgb(255,77,76);
     background: linear-gradient(0deg, rgba(255,77,76,1) 0%, rgba(255,246,133,1) 95%);
 }
+
+.skew-right {
+    transform: skewX(-3deg);
+}
